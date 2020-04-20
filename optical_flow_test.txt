@@ -1,0 +1,3 @@
+g++ optical_flow_test.cpp -lopencv_core -lopencv_highgui -lopencv_video -lopencv_videoio -lopencv_imgproc -lopencv_imgcodecs
+
+./a.out (PATH_TO_DATASET)
