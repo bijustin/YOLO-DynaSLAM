@@ -1,8 +1,14 @@
-# Dynamic Yolov3 SLAM
+# YOLO Dynamic ORB_SLAM
 
-Dynamic Yolov3 SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
+YOLO Dynamic ORB_SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
 
 We provide one example to run the SLAM system in the [TUM dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) as RGB-D.
+
+Example result (left are without dynamic object detection or masks, right are with YOLOv3 and masks), run on [rgbd_dataset_freiburg3_walking_xyz](https://vision.in.tum.de/data/datasets/rgbd-dataset/download):
+
+<img src="https://github.com/bijustin/Flow-DynaSLAM/blob/master/imgs/Dyna_NOyolo.png" width="320" height="240"> <img src="https://github.com/bijustin/Flow-DynaSLAM/blob/master/imgs/Dyna_yolo.png" width="320" height="240">
+
+<img src="https://github.com/bijustin/Flow-DynaSLAM/blob/master/imgs/SLAM_NOyolo.png" width="320" height="240"> <img src="https://github.com/bijustin/Flow-DynaSLAM/blob/master/imgs/SLAM_yolo.png" width="320" height="240">
 
 ## Getting Started
 - Install ORB-SLAM2 prerequisites: C++11 or C++0x Compiler, Pangolin, OpenCV and Eigen3  (https://github.com/raulmur/ORB_SLAM2).
@@ -41,6 +47,6 @@ If `YOLO` is **not** provided, only the geometrical approach is used to detect d
 If `YOLO` is provided, Yolov3 is used to segment the potential dynamic content of every frame. 
 
 ## Acknowledgements
-Our code builds on [ORB-SLAM2] and [DynaSLAM](https://github.com/raulmur/ORB_SLAM2, https://github.com/BertaBescos/DynaSLAM).
+Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [DynaSLAM](https://github.com/BertaBescos/DynaSLAM).
 
-# Dynamic Yolov3 SLAM
+# YOLO Dynamic ORB_SLAM
