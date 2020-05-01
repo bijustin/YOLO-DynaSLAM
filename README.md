@@ -1,6 +1,7 @@
 # YOLO Dynamic ORB_SLAM
 
 YOLO Dynamic ORB_SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
+See our other repository for related work: https://github.com/bijustin/Fast-Dynamic-ORB-SLAM/
 
 We provide one example to run the SLAM system in the [TUM dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) as RGB-D.
 
