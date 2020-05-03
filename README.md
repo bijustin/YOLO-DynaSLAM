@@ -18,15 +18,15 @@ Example result (left are without dynamic object detection or masks, right are wi
 - Install python 2.7, keras and tensorflow, and download the `yolov3.weights` model from this address: https://pjreddie.com/media/files/yolov3.weights. 
 - Clone this repo:
 ```bash
-git clone https://github.com/bijustin/Flow-DynaSLAM.git
-cd Flow-DynaSLAM
+git clone https://github.com/bijustin/YOLO-DynaSLAM.git
+cd YOLO-DynaSLAM
 ```
 ```
-cd Flow-DynaSLAM
+cd YOLO-DynaSLAM
 chmod +x build.sh
 ./build.sh
 ```
-- Place the `yolov3.weights` model in the folder `Flow-DynaSLAM/src/yolo/`.
+- Place the `yolov3.weights` model in the folder `YOLO-DynaSLAM/src/yolo/`.
 
 ## RGB-D Example on TUM Dataset
 - Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it.
